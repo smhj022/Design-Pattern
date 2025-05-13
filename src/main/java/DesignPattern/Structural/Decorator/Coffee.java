@@ -1,2 +1,5 @@
-package DesignPattern.Structural.Decorator;public class Coffee {
+package DesignPattern.Structural.Decorator;
+
+abstract class Coffee {
+    public abstract double getCost();
 }
