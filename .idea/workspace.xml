@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="814de83e-3344-4a46-862d-cb0355f6d21a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Builder2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Builder2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Component/AndroidButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Component/AndroidMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Component/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Component/IOSButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Component/IOSMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Component/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Factory/AndroidUIComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Factory/AndroidUIComponentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Factory/IOSUIComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Factory/IOSUIComponentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Factory/UIComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/Factory/UIComponentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Factory2/UIComponentHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Singleton/LoggerSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Creational/Singleton/LoggerSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/Coffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/CreamCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/CreamCoffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/DecoratedCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/DecoratedCoffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/MilkDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/MilkDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/SimpleCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/SimpleCoffee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/SugarCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPattern/Structural/Decorator/SugarCoffee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +61,26 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/learnings/Java/DesignPattern/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DesignPattern.Creational.Builder2.Main">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="BuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPattern.Creational.Builder.BuilderDemo" />
       <module name="DesignPattern.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DesignPattern.Creational.Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern.Creational.Factory2.Client" />
+      <module name="DesignPattern.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPattern.Creational.Factory2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,26 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPattern.Creational.Singleton.SingletonDemo" />
-      <module name="DesignPattern.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPattern.Creational.Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.DesignPattern.Creational.Builder2.Main" />
         <item itemvalue="Application.DesignPattern.Structural.Decorator.Main" />
         <item itemvalue="Application.DesignPattern.Structural.Adapter.Main" />
         <item itemvalue="Application.BuilderDemo" />
-        <item itemvalue="Application.SingletonDemo" />
       </list>
     </recent_temporary>
   </component>
